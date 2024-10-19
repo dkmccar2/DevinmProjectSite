@@ -46,7 +46,7 @@ h3 {
 
 /* links*/
 a {
-  color: rgb(17, 0, 255);
+  color: #57734a;
 }
 a:hover {
   color: #bcaa96;
@@ -59,7 +59,7 @@ footer a:hover {
   color: #3c8453;
 }
 .btn {
-  background: rgb(17, 0, 255);
+  background: #57734a;
   color: #eeede7;
   text-decoration: none;
   text-transform: uppercase;
@@ -79,7 +79,7 @@ footer a:hover {
 /* HOME
 -------------------------------*/
 .home {
-  background: url(../images/bg-sunset-ocean.jpg) no-repeat;
+  background: url(../images/bg-forest2.png) no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -102,7 +102,7 @@ footer a:hover {
 /* RESUME
 -------------------------------*/
 .resume header::before {
-  background: url(../images/bg-sunset-ocean.jpg) center;
+  background: url(../images/bg-forest2.png) center;
   background-size: cover;
   content: "";
   display: block;
@@ -112,7 +112,11 @@ footer a:hover {
   margin-bottom: 20px;
 }
 .resume-section h2 {
-  border-bottom: 2px dashed rgb(17, 0, 255);
+  border-bottom: 2px dashed #57734a;
+}
+.skill-title {
+  font-weight: bold;
+  display: inline;
 }
 .download-link {
   position: fixed;
